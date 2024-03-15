@@ -1,0 +1,1498 @@
+{
+  "Header": [
+    {
+      "id": "logo",
+      "type": "logo",
+      "imageSrc": "./src/images/Rawaha_Logo-white.webp",
+      "Sticky_imageSrc": "./src/images/Rawaha_Logo.png"
+      
+    },
+    {
+      "id": "menu",
+      "type": "menu",
+      "menu_items": [
+        {
+          "text": "All category",
+          "href": "/products"
+        },
+        {
+          "text": "Exclusives",
+          "href": "/products",
+          "submenuIcon": "./src/images/chevron-down (6).svg",
+          "color_submenuIcon": "./src/images/chevron-down (7).svg"
+        },
+        {
+          "text": "Classifications",
+          "href": "/products",
+          "submenuIcon": "./src/images/chevron-down (6).svg",
+          "color_submenuIcon": "./src/images/chevron-down (7).svg"
+        },
+        {
+          "text": "New Arrivals",
+          "href": "/products"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "type": "search",
+      "imageSrc": "./src/images/search (3).svg",
+      "Sticky_imageSrc": "./src/images/search (2).svg",
+      "href": "#"
+    },
+    {
+      "id": "user",
+      "type": "user",
+      "imageSrc": "./src/images/user (4).svg",
+      "Sticky_imageSrc": "./src/images/user (6).svg",
+      "href": "#"
+    },
+    {
+      "id": "shoppingBag",
+      "type": "shopping-bag",
+      "imageSrc": "./src/images/shopping-bag.svg",
+      "Sticky_imageSrc": "./src/images/shopping-bag (2).svg",
+      "href": "#",
+      "notification": {
+        "count": 0,
+        "notificationIcon": "./src/images/notification-icon.svg",
+        "sticky_notificationIcon": "./src/images/notification-icon.svg"
+      },
+      "amount": "Rs.0.00"
+    }
+  ],
+  "MainBanner": [
+    {
+      "desktop-bg": "./src/images/new-arrivals-mobile-banner.webp",
+      "mobile-bg": "./src/images/new-arrivals-desktop-banner_cea39001-8bde-4e4f-8574-4fcc76b9370f.webp",
+      "heading": "Winter Collections",
+      "description": "Explore Rawaha's New Collection Now!",
+      "btn-text": "Shop Now",
+      "btn-href": "#"
+    }
+  ],
+  "Feature": [
+    {
+      "id": "Money-Back",
+      "title": "Money-Back Guarantee",
+      "imageSrc": "./src/images/check-square.svg",
+      "description": "We return the money within 30 days"
+    },
+    {
+      "id": "Fast-Shipping",
+      "title": "Fast & Free Shipping",
+      "imageSrc": "./src/images/truck.svg",
+      "description": "Offering Free Delivery on Orders above Rs. 5000"
+    },
+    {
+      "id": "24-Support",
+      "title": "24/7 Customer Support",
+      "imageSrc": "./src/images/headphones.svg",
+      "description": "Our Support Team is Ready For You 7 days a week"
+    },
+    {
+      "id": "Promising-Quality",
+      "title": "Promising Quality",
+      "imageSrc": "./src/images/thumbs-up.svg",
+      "description": "All our category assure the utmost quality"
+    }
+  ],
+  "categoryPortion": {
+    "categories": [
+      {
+        "name": "New Arrivals",
+        "imageSrc": "./src/images/OriginalCreation.png",
+        "link": "#"
+      },
+      {
+        "name": "Best Sellers",
+        "imageSrc": "./src/images/Best_Sellers.png",
+        "link": "#"
+      },
+      {
+        "name": "Just Restocked",
+        "imageSrc": "./src/images/Restocked.png",
+        "link": "#"
+      }
+    ],
+    "exploreAllLink": {
+      "text": "Explore All New category",
+      "link": "#",
+      "arrowIconSrc": "./src/images/arrow-right (1).svg"
+    }
+  },
+  "products": {
+    "category": {
+      "newArival":{
+        "totalItems":11,
+        "items": [
+          {
+            "id":1,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":2,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":3,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":4,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":77,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":8,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":88,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":9,
+            "createdAt":"2024-03-30T08:03:45Z",
+            "totalReview":58,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":10,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":66,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":11,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":51,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":12,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":51,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          }
+        ]
+      },
+      "bestSeller":{
+        "totalItems":11,
+        "items": [
+          {
+            "id":1,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":2,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":3,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":4,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":77,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":8,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":88,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":9,
+            "createdAt":"2024-03-30T08:03:45Z",
+            "totalReview":58,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":10,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":66,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":11,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":51,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":12,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":51,
+            "imageSrc": "./src/images/perfume-1.webp",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          }
+        ]
+      },
+      "re-stocked":{
+        "totalItems":11,
+        "items": [
+          {
+            "id":1,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":2,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":3,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":4,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":6,
+            "createdAt":"2024-01-30T08:03:45Z",
+            "totalReview":23,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":7,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":77,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":8,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":88,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":9,
+            "createdAt":"2024-03-30T08:03:45Z",
+            "totalReview":58,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":10,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":66,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":11,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":51,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          },
+          {
+            "id":12,
+            "createdAt":"2024-02-30T08:03:45Z",
+            "totalReview":51,
+            "imageSrc": "./src/images/item1.jpg",
+            "title": "Ruby Oud - Impression of Purple Oud",
+            "price": {
+              "original": 1050.00,
+              "discounted": 500.00
+            },
+            "sizes": [
+              {
+                "label": "30ML",
+                "href": "#"
+              },
+              {
+                "label": "50ML",
+                "href": "#"
+              },
+              {
+                "label": "100ML",
+                "href": "#"
+              },
+              {
+                "label": "5ML",
+                "href": "#"
+              },
+              {
+                "label": "10ML",
+                "href": "#"
+              }
+            ]
+          }
+        ]
+      }
+          
+        
+      
+   
+   
+    }
+    
+  },
+  "category2": {
+    "items": [
+      {
+        "imageSrc": "./src/images/perfume-1.webp",
+        "category": "Male",
+        "circles": [
+          {
+            "href": "#",
+            "content": "+77"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          }
+        ]
+      },
+      {
+        "imageSrc": "./src/images/perfume-2.webp",
+        "category": "Male",
+        "circles": [
+          {
+            "href": "",
+            "content": "+77"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          }
+        ]
+      },
+      {
+        "imageSrc": "./src/images/perfume-3.webp",
+        "category": "Male",
+        "circles": [
+          {
+            "href": "",
+            "content": "+77"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item3.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item3.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item3.jpg"
+          }
+        ]
+      },
+      {
+        "imageSrc": "./src/images/perfume-4.webp",
+        "category": "Male",
+        "circles": [
+          {
+            "href": "",
+            "content": "+77"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item4.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item4.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item4.jpg"
+          }
+        ]
+      },
+      {
+        "imageSrc": "./src/images/perfume-5.webp",
+        "category": "Male",
+        "circles": [
+          {
+            "href": "",
+            "content": "+77"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          },
+          {
+            "href": "#",
+            "imageSrc": "./src/images/item1.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "lastingImpression": {
+    "title": "BUNDALS",
+    "heading": "Lasting Impressions",
+    "btnText": "Shop Now",
+    "shopNowLink": "#",
+    "imageSrc": "./src/images/Bottom-Bundle.webp"
+  },
+  "informationSection": {
+    "leftSide": {
+      "imageSrc": "./src/images/bandicam 2024-02-13 17-11-30-858.jpg",
+      "date": "MARCH 27, 2023",
+      "title": "What do Amber Oud Perfumes Smell Like?",
+      "content": "What Are Amber Oud Perfumes Before we start going into the nitty-gritty of what amber o...",
+      "readMoreLink": "#",
+      "titleLink": "#"
+    },
+    "rightSide": [
+      {
+        "imageSrc": "./src/images/bandicam 2024-02-13 17-12-01-427.jpg",
+        "date": "MARCH 27, 2023",
+        "title": "Sauvage Perfume Impressions at Rawaha",
+        "titleLink": "#",
+        "content": "The Scintillating Sauvage To those unfamiliar with the term, “Sauvage” means wild, or u...",
+        "readMoreLink": "#"
+      },
+      {
+        "imageSrc": "./src/images/bandicam 2024-02-13 17-12-11-434.jpg",
+        "date": "MARCH 27, 2023",
+        "title": "6 Tips on How to Keep Perfume from Evaporating",
+        "titleLink": "#",
+        "content": "When you invest in a high-quality perfume, you want to make sure it lasts as long as po...",
+        "readMoreLink": "#"
+      },
+      {
+        "imageSrc": "./src/images/bandicam 2024-02-13 17-12-21-033.jpg",
+        "date": "MARCH 27, 2023",
+        "title": "Best Versace Perfume Impressions from Rawaha",
+        "titleLink": "#",
+        "content": "About Versace Launched in 1978, “Gianni Versace Donna” or “Versace” as it is known toda...",
+        "readMoreLink": "#"
+      }
+    ]
+  },
+  "bestSeller": {
+    "imageSrc": "./src/images/Best-Sellers.jpg",
+    "title": "OUR BEST SELLERS",
+    "items": [
+      {
+        "name": "Acqua Di Gio & Issey Miyaki",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Oud Ispahan",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Versace Eros",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Baccarat Rouge 540",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Creed Aventus",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Aventus for Her",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Yves Saint Laurant Tuxedo",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Black Afgano",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "Tuscan Leather",
+        "href": "#",
+        "color": "#c19e66"
+      },
+      {
+        "name": "J’adore",
+        "href": "#",
+        "color": "#c19e66"
+      }
+    ]
+  },
+  "reviewCard": {
+    "stars": [
+      "./src/images/star.svg",
+      "./src/images/star.svg",
+      "./src/images/star.svg",
+      "./src/images/star.svg",
+      "./src/images/star.svg"
+    ],
+    "mainReview": "Mixed Experience: Quality Customer Service Amidst Delivery and Product Issues",
+    "description": "I purchased multiple items....",
+    "name": "Mateeullah Afridi",
+    "designation": "Mythic Journey - Turath by The spiri..."
+  },
+  "upperContent": {
+    "leftSide": {
+      "title": "20,000+ satisfied customers 🤩",
+      "stars": [
+        "./src/images/star.svg",
+        "./src/images/star.svg",
+        "./src/images/star.svg",
+        "./src/images/star.svg",
+        "./src/images/star.svg"
+      ],
+      "reviewCount": 238
+    },
+    "rightSide": {
+      "verificationMessage": "Verified by",
+      "verificationLink": {
+        "text": "Judge.me",
+        "url": "#"
+      }
+    }
+  },
+  "impressionSection": {
+    "title": "Embrace Individuality with Our Exclusive Impressions",
+    "paragraphs": [
+      "For far too long, the West and Middle East have dominated the market for scents. The French with their sense-numbing sensuality and the Arabs with their mystical potions. Is it that the rest of the world is too ahead of us, or we don’t have anything to offer? The latter couldn’t be further from the truth. Thus, began Rawaha’s mission.",
+      "We set out to prove to the world that Pakistani scents exist in their unique way. Our craftsmen began working on taking the most enchanting and eloquent scents from around the world and developing something new with them; something that contains the elements of Pakistan while also maintaining the original scent’s integrity.",
+      "Another goal we strived to achieve was to make scents accessible to all. Hence, we developed affordable scents that didn’t compromise on quality. Now, our high-quality impressions are easily accessible to everyone!",
+      "Our success is a testament to the satisfaction of customers and the quality of our products. Rawaha promises to continue on its mission and keep developing. Our craftsmanship combines all the intricacies, techniques, and magic of scent-making from all over the world."
+    ]
+  },
+  "ItemDetails": {
+    "smil_imgSrc": "./src/images/smile.svg",
+    "clock_imgSrc": "./src/images/clock.svg",
+    "truck_imgSrc": "./src/images/truck (1).svg"
+  }
+}
