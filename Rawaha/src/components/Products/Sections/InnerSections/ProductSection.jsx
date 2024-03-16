@@ -15,44 +15,34 @@ export default function ProductSection () {
         setJsonData(products); 
     }, []); 
 
-    console.log(jsonData)
-
-    const [categories, setCategories] = useState([]);
-    useEffect(() => {
-        // let cat = [];
-        // products.products.map(item => {
-        //     cat.push(item.category)
-        // });
-
-        // cat = [...new Set(cat)]
-        // console.log(cat)
-        // setCategories(cat);
-
-        const categoryCounts = {};
-
-        products.products.forEach(item => {
-            categoryCounts[item.category] = (categoryCounts[item.category] || 0) + 1;
-        });
-
-        const result = Object.entries(categoryCounts).map(([n, l]) => ({ name: n, length: l }));
-
-
-        setCategories(result)
-    }, [])
-
-    // const [clickCount, setClickCount] = useState(0);
-
     const handleClickFromChild = useCallback((name) => {
         let newData = products.products.filter((item) => item.category == name);
-        console.log(newData)
         setJsonData({"products": newData})
     }, [])
+    
 
-    // const handleClickFromChild = (name) => {
-    //     let newData = products.products.filter((item) => item.category == name);
-    //     console.log(newData)
-    //     setJsonData({"products": newData})
-    // }
+
+      // Organize the data by type, then by category, and then by items within each category
+      const organizedData = products.products.reduce((acc, product) => {
+        // Initialize an empty object for the current product type if it doesn't exist
+        if (!acc[product.type]) {
+          acc[product.type] = {};
+        }
+        
+        // Initialize an empty array for the current product category if it doesn't exist
+        if (!acc[product.type][product.category]) {
+          acc[product.type][product.category] = [];
+        }
+        
+        // Push the current product into the array corresponding to its category
+        acc[product.type][product.category].push(product);
+        
+        return acc;
+      }, {});
+      
+      console.log(organizedData);
+      
+
 
     return (
         <>
@@ -62,7 +52,7 @@ export default function ProductSection () {
 
                 <div className="product-portion  sm:block sm:grid grid">
                 
-                    <SideMenu categories={categories} getClick={handleClickFromChild} />
+                    <SideMenu organizedData={organizedData} getClick={handleClickFromChild} />
                 
                     <div className="right">
                         <div className="products new-category grid sm:grid-cols-2 lg:grid-cols-4 gap-4 justify-center">
@@ -77,7 +67,7 @@ export default function ProductSection () {
                                         price={item.price}
                                         sizes={item.sizes}
                                         title={item.title}
-                                        />
+                                    />
                                 ))
                                 :
                                 null
