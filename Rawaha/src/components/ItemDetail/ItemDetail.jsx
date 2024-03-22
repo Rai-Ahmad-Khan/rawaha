@@ -1,10 +1,18 @@
 import Slider from "react-slick";
 import SampleAPI from '../../../SampleAPI.json';
+import { useParams } from "react-router-dom";
+import { useState, useEffect, useRef, } from "react";
 import data from '../../../data.json'
-import React, { useState, useEffect, useRef } from "react";
 
 export default function ItemDetail () {
-    const Product = data.products[0];
+    let { id } = useParams();
+    id = parseInt(id, 10);
+
+    const products = data;
+
+    console.log(id)
+    
+ 
     const upperContent = SampleAPI.upperContent;
     const headerData = SampleAPI.Header;
     const itemDetails = SampleAPI.ItemDetails;
@@ -13,68 +21,76 @@ export default function ItemDetail () {
     const [nav2, setNav2] = useState(null);
     let sliderRef1 = useRef(null);
     let sliderRef2 = useRef(null);
-  
+
+    const [jsonData, setJsonData] = useState();
+    useEffect(() => {
+        const newData = products.products.filter(item => item.id == id);
+        setJsonData(newData)
+    }, []);
+
     useEffect(() => {
       setNav1(sliderRef1);
       setNav2(sliderRef2);
     }, []);
     return (
+        
         <>
-       
-        <div className="item-detail-section">
+        {
+            (jsonData && jsonData.length > 0) ? 
+            <div className="item-detail-section">
             <div className="inner-item-detail max-w-[84rem] mx-auto">
                 <div className="name-bar h-16 flex items-center px-5">
                     <div className="content flex text-gray-400 text-[12px]">
                         <p className="text-black">Home </p>
-                        <p>Athlete's Ascent -</p>
-                        <p>Ultra Long Lasting -</p>
-                        <p>Impression of Polo Sport</p>
+                        {jsonData[0].title}
+                        
                     </div>
                 </div>
                 <div className="item-detail-display mb-10 grid grid-cols-2 justify-center">
                     <div className="left  justify-self-center relative">
                        <div>
-                       <Slider asNavFor={nav1}
-                                ref={slider => (sliderRef2 = slider)}
+                       <Slider ref={slider => (sliderRef2 = slider)}
+                                asNavFor={nav1}
                                 slidesToShow={3}
-                                swipeToSlide={true} focusOnSelect={true} 
+                                swipeToSlide={true}
+                                 focusOnSelect={true} 
                                 className="size-bar nav-slider slider-for h-20  w-[600px]">
-                            <img className="h-20 w-20" src={Product.imageSrc} alt="item"/>
-                            <img className="h-20 w-20" src={Product.imageSrc} alt="item"/>
-                            <img className="h-20 w-20" src={Product.imageSrc} alt="item"/>
-                            <img className="h-20 w-20" src={Product.imageSrc} alt="item"/>
+
+                                <img className="h-20 w-20 object-contain" src={`/src/assets/images/${jsonData[0].image}`} alt="item"/>
+                                <img className="h-20 w-20 object-contain" src={`/src/assets/images/${jsonData[0].image}`} alt="item"/>
+                                <img className="h-20 w-20 object-contain" src={`/src/assets/images/${jsonData[0].image}`} alt="item"/>
+                                <img className="h-20 w-20 object-contain" src={`/src/assets/images/${jsonData[0].image}`} alt="item"/>
+                                
                         </Slider>
                        </div>
                        <div>
-                       <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} className="item-display main-slider slider-nav w-[600px]">
-                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={Product.imageSrc} alt="item"/></div>
-                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={Product.imageSrc} alt="item"/></div>
-                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={Product.imageSrc} alt="item"/></div>
-                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={Product.imageSrc} alt="item"/></div>
-                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={Product.imageSrc} alt="item"/></div>
+                       <Slider ref={slider => (sliderRef1 = slider)} asNavFor={nav2} className="item-display mt-2 main-slider slider-nav w-[600px]">
+                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={`/src/assets/images/${jsonData[0].image}`}  alt="item"/></div>
+                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={`/src/assets/images/${jsonData[0].image}`}  alt="item"/></div>
+                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={`/src/assets/images/${jsonData[0].image}`}  alt="item"/></div>
+                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={`/src/assets/images/${jsonData[0].image}`}  alt="item"/></div>
+                            <div className="item mr-10"><img className="h-[600px] w-[600px]" src={`/src/assets/images/${jsonData[0].image}`}  alt="item"/></div>
                         </Slider>
                        </div>
                     </div>
                     <div className="item-information justify-self-center w-[400px]"> 
                         <div className="flex flex-col gap-3 border-b border-gray-400 ">
-                            <h2 className="text-black text-[26px]">Athlete's Ascent - Ultra Long Lasting - Impression of Polo Sport</h2>
+                            <h2 className="text-black text-[26px]">{jsonData[0].title} </h2>
                             <span className="stars flex w-60">
                                 {upperContent.leftSide.stars.map((star, startIndex)=> (
                                     <img key={startIndex} className="h-7 w-7" src={star} alt="#"/>
                                 ))}
                                 <p  className="text-[14px]  text-gray-500"> 4 reviews</p>
                             </span>
-                            <span className="text-[20px]">Rs.850.00</span>
+                            {/* <span className="text-[20px]">Rs.{price}</span> */}
                         </div>
                         <div className="flex py-5 flex-col gap-3 border-b border-gray-400 text-[14px]">
                             <p className=" text-gray-400">Men's Ultra Long Lasting Perfume Description Athlete?s Ascent is ultra long lasting perfume. It opens with a blend of fruity notes; making it an intense and oceanic growth fragrance It... <a className="text-black underline" href="#">Read more</a></p>
                             <span className="selected-size ">SIZE: 50ML</span>
                             <div className="buttons flex gap-2 flex-wrap  text-gray-500">
-                                <a className="px-4 py-1 border border-solid border-gray-500 rounded-full" href="#">30ML</a>
-                                <a className="px-4 py-1 border border-solid border-gray-500 rounded-full" href="#">50ML</a>
-                                <a className="px-4 py-1 border border-solid border-gray-500 rounded-full" href="#">100ML</a>
-                                <a className="px-4 py-1 border border-solid border-gray-500 rounded-full" href="#">5ML</a>
-                                <a className="px-4 py-1 border border-solid border-gray-500 rounded-full" href="#">10ML</a>
+                                {jsonData[0].sizes.map((size, index) => (
+                                    <a key={index} className="px-1 border border-solid border-gray-500" href={size.href}>{size.label}</a>
+                                ))}
                             </div>
                             <div className="input-portion">
                                 <label htmlFor="tester" className="font-medium ">Free tester of your choice</label>
@@ -111,6 +127,10 @@ export default function ItemDetail () {
             </div>
         </div>
 
+            : 
+            
+            null
+        }
         </>
     )
 }

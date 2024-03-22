@@ -1,7 +1,7 @@
 import MainBanner from './Sections/Main-Banner'
 import Feature from './Sections/Feature'
 import Category from './Sections/Category'
-import Category2 from './Sections/Category2'
+// import Category2 from './Sections/Category2'
 import LastingImpression from './Sections/LastingImpression'
 import BestSeller from './Sections/BestSeller'
 import SliderReview from '../Shared/SliderReview'
@@ -16,8 +16,8 @@ function Home() {
 
         <MainBanner/>
         <Feature/>
-        <Category SectionSize={1}/>
-        <Category2/>
+        <Category />
+        {/* <Category2/> */}
         <LastingImpression/>
         <BestSeller/>
         <SliderReview/>

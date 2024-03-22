@@ -3,14 +3,14 @@
           {
             "id":1,
             "createdAt":"2024-01-30T08:03:45Z",
-            "totalReview":23,
             "category": "Re Stocked",
             "type":"Classification",
             "gender":"Male",
             "series":"Signature",
             "stock":"10",
-            "imageSrc": "./src/images/item1.jpg",
-            "title": "Ruby Oud - Impression of Purple Oud",
+            "image": "item1.jpg",
+            "title": "A_ Ruby Oud - Impression of Purple Oud",
+            "totalReview":33,
             "price": {
               "original": 1050.00,
               "discounted": 500.00
@@ -41,14 +41,14 @@
           {
             "id":2,
             "createdAt":"2024-01-30T08:03:45Z",
-            "totalReview":23,
+            "totalReview":10,
             "category": "Re Stocked",
             "type":"Classification",
             "gender":"Female",
             "series":"Exclusive",
             "stock":"10",
-            "imageSrc": "./src/images/perfume-3.webp",
-            "title": "Ruby Oud - Impression of Purple Oud",
+            "image": "perfume-3.webp",
+            "title": "C_ Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
               "discounted": 500.00
@@ -79,14 +79,14 @@
           {
             "id":3,
             "createdAt":"2024-01-30T08:03:45Z",
-            "totalReview":23,
+            "totalReview":123,
             "category": "Freash",
             "type":"Classification",
             "gender":"Male",
             "series":"Exclusive",
             "stock":"10",
-            "imageSrc": "./src/images/perfume-1.webp",
-            "title": "Ruby Oud - Impression of Purple Oud",
+            "image": "perfume-1.webp",
+            "title": "D_ Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
               "discounted": 500.00
@@ -117,14 +117,14 @@
           {
             "id":4,
             "createdAt":"2024-01-30T08:03:45Z",
-            "totalReview":23,
+            "totalReview":123,
             "category": "Freash",
             "type":"Classification",
             "gender":"Male",
             "series":"Signature",
             "stock":"10",
-            "imageSrc": "./src/images/perfume-3.webp",
-            "title": "Ruby Oud - Impression of Purple Oud",
+            "image": "perfume-3.webp",
+            "title": "E_ Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
               "discounted": 500.00
@@ -155,13 +155,13 @@
           {
             "id":6,
             "createdAt":"2024-01-30T08:03:45Z",
-            "totalReview":23,
+            "totalReview":123,
             "category": "Spicy",
             "type":"Classification",
             "gender":"Female",
             "series":"Prive",
             "stock":"120",
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -193,14 +193,14 @@
           {
             "id":7,
             "createdAt":"2024-02-30T08:03:45Z",
-            "totalReview":77,
+            "totalReview":177,
             "category": "Vanilla",
             "type":"Classification",
             "gender":"Female",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"0",
-            "imageSrc": "./src/images/perfume-2.webp",
-            "title": "Ruby Oud - Impression of Purple Oud",
+            "image": "perfume-2.webp",
+            "title": "F_ Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
               "discounted": 500.00
@@ -231,13 +231,13 @@
           {
             "id":8,
             "createdAt":"2024-02-30T08:03:45Z",
-            "totalReview":88,
+            "totalReview":0,
             "category": "Vanilla",
             "type":"Classification",
             "gender":"Female",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"0",
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -269,17 +269,17 @@
           {
             "id":9,
             "createdAt":"2024-03-30T08:03:45Z",
-            "totalReview":58,
+            "totalReview":158,
             "category": "Powdery",
             "type":"Classification",
             "gender":"Unisex",
             "series":"Arabic",
             "stock":"22",
-            "imageSrc": "./src/images/perfume-4.webp",
+            "image": "perfume-4.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
-              "original": 1050.00,
-              "discounted": 500.00
+              "original": 3050.00,
+              "discounted": 2000.00
             },
             "sizes": [
               {
@@ -313,7 +313,7 @@
             "gender":"Unisex",
             "series":"Arabic",
             "stock":"22",
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -351,7 +351,7 @@
             "gender":"Male",
             "series":"Prive",
             "stock":"228",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -390,7 +390,7 @@
             "gender":"Male",
             "series":"Prive",
             "stock":"228",
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -423,17 +423,17 @@
           {
             "id":13,
             "createdAt":"2024-02-30T08:03:45Z",
-            "totalReview":51,
+            "totalReview":511,
             "category": "Spring",
             "type":"Season",
             "gender":"Female",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"18",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
-              "original": 1050.00,
-              "discounted": 500.00
+              "original": 600.00,
+              "discounted": 400.00
             },
             "sizes": [
               {
@@ -466,9 +466,9 @@
             "category": "Spring",
             "type":"Season",
             "gender":"Female",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"18",
-            "imageSrc": "./src/images/perfume-4.webp",
+            "image": "perfume-4.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -507,11 +507,11 @@
             "gender":"Female",
             "series":"Signature",
             "stock":"18",
-            "imageSrc": "./src/images/perfume-5.webp",
+            "image": "perfume-5.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
-              "original": 1050.00,
-              "discounted": 500.00
+              "original": 500.00,
+              "discounted": 350.00
             },
             "sizes": [
               {
@@ -546,7 +546,7 @@
             "gender":"Female",
             "series":"Arabic",
             "stock":"18",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -585,7 +585,7 @@
             "gender":"Male",
             "series":"Exclusive",
             "stock":"118",
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -624,11 +624,11 @@
             "gender":"Male",
             "series":"Exclusive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-4.webp",
+            "image": "perfume-4.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
-              "discounted": 500.00
+              "discounted": 11500.00
             },
             "sizes": [
               {
@@ -663,7 +663,7 @@
             "gender":"Male",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -701,12 +701,12 @@
             "type":"Occasions",
             "gender":"Male",
             "series":"Prive",
-            "stock":"118",
-            "imageSrc": "./src/images/item1.jpg",
+            "stock":"0",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
-              "discounted": 500.00
+              "discounted": 1500.00
             },
             "sizes": [
               {
@@ -740,8 +740,8 @@
             "type":"Occasions",
             "gender":"Male",
             "series":"Prive",
-            "stock":"118",
-            "imageSrc": "./src/images/item1.jpg",
+            "stock":"0",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -780,7 +780,7 @@
             "gender":"Unisex",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -819,7 +819,7 @@
             "gender":"Unisex",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-3.webp",
+            "image": "perfume-3.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -856,9 +856,9 @@
             "category": "Gym",
             "type":"Occasions",
             "gender":"Unisex",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-4.webp",
+            "image": "perfume-4.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -895,9 +895,9 @@
             "category": "Gym",
             "type":"Occasions",
             "gender":"Unisex",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -936,7 +936,7 @@
             "gender":"Unisex",
             "series":"Signature",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-5.webp",
+            "image": "perfume-5.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -975,7 +975,7 @@
             "gender":"Unisex",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1012,9 +1012,9 @@
             "category": "New Arrivals",
             "type":"Occasions",
             "gender":"Unisex",
-            "series":"Special Blends",
+            "series":"special_blends",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1053,7 +1053,7 @@
             "gender":"Unisex",
             "series":"Signature",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1092,7 +1092,7 @@
             "gender":"Unisex",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-5.webp",
+            "image": "perfume-5.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1131,7 +1131,7 @@
             "gender":"Unisex",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-5.webp",
+            "image": "perfume-5.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1170,7 +1170,7 @@
             "gender":"Unisex",
             "series":"Prive",
             "stock":"118",
-            "imageSrc": "./src/images/perfume-2.webp",
+            "image": "perfume-2.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,

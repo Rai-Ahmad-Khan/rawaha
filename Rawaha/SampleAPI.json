@@ -3,8 +3,8 @@
     {
       "id": "logo",
       "type": "logo",
-      "imageSrc": "./src/images/Rawaha_Logo-white.webp",
-      "Sticky_imageSrc": "./src/images/Rawaha_Logo.png"
+      "image": "Rawaha_Logo-white.webp",
+      "Sticky_image": "Rawaha_Logo.png"
       
     },
     {
@@ -18,14 +18,14 @@
         {
           "text": "Exclusives",
           "href": "/products",
-          "submenuIcon": "./src/images/chevron-down (6).svg",
-          "color_submenuIcon": "./src/images/chevron-down (7).svg"
+          "submenuIcon": "chevron-down (6).svg",
+          "color_submenuIcon": "chevron-down (7).svg"
         },
         {
           "text": "Classifications",
           "href": "/products",
-          "submenuIcon": "./src/images/chevron-down (6).svg",
-          "color_submenuIcon": "./src/images/chevron-down (7).svg"
+          "submenuIcon": "chevron-down (6).svg",
+          "color_submenuIcon": "chevron-down (7).svg"
         },
         {
           "text": "New Arrivals",
@@ -36,35 +36,35 @@
     {
       "id": "search",
       "type": "search",
-      "imageSrc": "./src/images/search (3).svg",
-      "Sticky_imageSrc": "./src/images/search (2).svg",
+      "image": "search (3).svg",
+      "Sticky_image": "search (2).svg",
       "href": "#"
     },
     {
       "id": "user",
       "type": "user",
-      "imageSrc": "./src/images/user (4).svg",
-      "Sticky_imageSrc": "./src/images/user (6).svg",
+      "image": "user (4).svg",
+      "Sticky_image": "user (6).svg",
       "href": "#"
     },
     {
       "id": "shoppingBag",
       "type": "shopping-bag",
-      "imageSrc": "./src/images/shopping-bag.svg",
-      "Sticky_imageSrc": "./src/images/shopping-bag (2).svg",
+      "image": "shopping-bag.svg",
+      "Sticky_image": "shopping-bag (2).svg",
       "href": "#",
       "notification": {
         "count": 0,
-        "notificationIcon": "./src/images/notification-icon.svg",
-        "sticky_notificationIcon": "./src/images/notification-icon.svg"
+        "notificationIcon": "notification-icon.svg",
+        "sticky_notificationIcon": "notification-icon.svg"
       },
       "amount": "Rs.0.00"
     }
   ],
   "MainBanner": [
     {
-      "desktop-bg": "./src/images/new-arrivals-mobile-banner.webp",
-      "mobile-bg": "./src/images/new-arrivals-desktop-banner_cea39001-8bde-4e4f-8574-4fcc76b9370f.webp",
+      "desktop-bg": "new-arrivals-mobile-banner.webp",
+      "mobile-bg": "new-arrivals-desktop-banner_cea39001-8bde-4e4f-8574-4fcc76b9370f.webp",
       "heading": "Winter Collections",
       "description": "Explore Rawaha's New Collection Now!",
       "btn-text": "Shop Now",
@@ -75,25 +75,25 @@
     {
       "id": "Money-Back",
       "title": "Money-Back Guarantee",
-      "imageSrc": "./src/images/check-square.svg",
+      "image": "check-square.svg",
       "description": "We return the money within 30 days"
     },
     {
       "id": "Fast-Shipping",
       "title": "Fast & Free Shipping",
-      "imageSrc": "./src/images/truck.svg",
+      "image": "truck.svg",
       "description": "Offering Free Delivery on Orders above Rs. 5000"
     },
     {
       "id": "24-Support",
       "title": "24/7 Customer Support",
-      "imageSrc": "./src/images/headphones.svg",
+      "image": "headphones.svg",
       "description": "Our Support Team is Ready For You 7 days a week"
     },
     {
       "id": "Promising-Quality",
       "title": "Promising Quality",
-      "imageSrc": "./src/images/thumbs-up.svg",
+      "image": "thumbs-up.svg",
       "description": "All our category assure the utmost quality"
     }
   ],
@@ -101,24 +101,24 @@
     "categories": [
       {
         "name": "New Arrivals",
-        "imageSrc": "./src/images/OriginalCreation.png",
+        "image": "OriginalCreation.png",
         "link": "#"
       },
       {
         "name": "Best Sellers",
-        "imageSrc": "./src/images/Best_Sellers.png",
+        "image": "Best_Sellers.png",
         "link": "#"
       },
       {
         "name": "Just Restocked",
-        "imageSrc": "./src/images/Restocked.png",
+        "image": "Restocked.png",
         "link": "#"
       }
     ],
     "exploreAllLink": {
       "text": "Explore All New category",
       "link": "#",
-      "arrowIconSrc": "./src/images/arrow-right (1).svg"
+      "arrowIconSrc": "arrow-right (1).svg"
     }
   },
   "products": {
@@ -130,7 +130,7 @@
             "id":1,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -163,7 +163,7 @@
             "id":2,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -196,7 +196,7 @@
             "id":3,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -229,7 +229,7 @@
             "id":4,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -262,7 +262,7 @@
             "id":6,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -295,7 +295,7 @@
             "id":7,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":77,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -328,7 +328,7 @@
             "id":8,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":88,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -361,7 +361,7 @@
             "id":9,
             "createdAt":"2024-03-30T08:03:45Z",
             "totalReview":58,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -394,7 +394,7 @@
             "id":10,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":66,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -427,7 +427,7 @@
             "id":11,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":51,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -460,7 +460,7 @@
             "id":12,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":51,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -498,7 +498,7 @@
             "id":1,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -531,7 +531,7 @@
             "id":2,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -564,7 +564,7 @@
             "id":3,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -597,7 +597,7 @@
             "id":4,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -630,7 +630,7 @@
             "id":6,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -663,7 +663,7 @@
             "id":7,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":77,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -696,7 +696,7 @@
             "id":8,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":88,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -729,7 +729,7 @@
             "id":9,
             "createdAt":"2024-03-30T08:03:45Z",
             "totalReview":58,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -762,7 +762,7 @@
             "id":10,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":66,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -795,7 +795,7 @@
             "id":11,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":51,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -828,7 +828,7 @@
             "id":12,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":51,
-            "imageSrc": "./src/images/perfume-1.webp",
+            "image": "perfume-1.webp",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -866,7 +866,7 @@
             "id":1,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -899,7 +899,7 @@
             "id":2,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -932,7 +932,7 @@
             "id":3,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -965,7 +965,7 @@
             "id":4,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -998,7 +998,7 @@
             "id":6,
             "createdAt":"2024-01-30T08:03:45Z",
             "totalReview":23,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1031,7 +1031,7 @@
             "id":7,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":77,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1064,7 +1064,7 @@
             "id":8,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":88,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1097,7 +1097,7 @@
             "id":9,
             "createdAt":"2024-03-30T08:03:45Z",
             "totalReview":58,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1130,7 +1130,7 @@
             "id":10,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":66,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1163,7 +1163,7 @@
             "id":11,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":51,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1196,7 +1196,7 @@
             "id":12,
             "createdAt":"2024-02-30T08:03:45Z",
             "totalReview":51,
-            "imageSrc": "./src/images/item1.jpg",
+            "image": "item1.jpg",
             "title": "Ruby Oud - Impression of Purple Oud",
             "price": {
               "original": 1050.00,
@@ -1238,7 +1238,7 @@
   "category2": {
     "items": [
       {
-        "imageSrc": "./src/images/perfume-1.webp",
+        "image": "perfume-1.webp",
         "category": "Male",
         "circles": [
           {
@@ -1247,20 +1247,20 @@
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           }
         ]
       },
       {
-        "imageSrc": "./src/images/perfume-2.webp",
+        "image": "perfume-2.webp",
         "category": "Male",
         "circles": [
           {
@@ -1269,20 +1269,20 @@
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           }
         ]
       },
       {
-        "imageSrc": "./src/images/perfume-3.webp",
+        "image": "perfume-3.webp",
         "category": "Male",
         "circles": [
           {
@@ -1291,20 +1291,20 @@
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item3.jpg"
+            "image": "item3.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item3.jpg"
+            "image": "item3.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item3.jpg"
+            "image": "item3.jpg"
           }
         ]
       },
       {
-        "imageSrc": "./src/images/perfume-4.webp",
+        "image": "perfume-4.webp",
         "category": "Male",
         "circles": [
           {
@@ -1313,20 +1313,20 @@
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item4.jpg"
+            "image": "item4.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item4.jpg"
+            "image": "item4.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item4.jpg"
+            "image": "item4.jpg"
           }
         ]
       },
       {
-        "imageSrc": "./src/images/perfume-5.webp",
+        "image": "perfume-5.webp",
         "category": "Male",
         "circles": [
           {
@@ -1335,15 +1335,15 @@
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           },
           {
             "href": "#",
-            "imageSrc": "./src/images/item1.jpg"
+            "image": "item1.jpg"
           }
         ]
       }
@@ -1351,14 +1351,14 @@
   },
   "lastingImpression": {
     "title": "BUNDALS",
-    "heading": "Lasting Impressions",
+    "heading": "",
     "btnText": "Shop Now",
     "shopNowLink": "#",
-    "imageSrc": "./src/images/Bottom-Bundle.webp"
+    "image": "Bottom-Bundle.webp"
   },
   "informationSection": {
     "leftSide": {
-      "imageSrc": "./src/images/bandicam 2024-02-13 17-11-30-858.jpg",
+      "image": "bandicam 2024-02-13 17-11-30-858.jpg",
       "date": "MARCH 27, 2023",
       "title": "What do Amber Oud Perfumes Smell Like?",
       "content": "What Are Amber Oud Perfumes Before we start going into the nitty-gritty of what amber o...",
@@ -1367,7 +1367,7 @@
     },
     "rightSide": [
       {
-        "imageSrc": "./src/images/bandicam 2024-02-13 17-12-01-427.jpg",
+        "image": "bandicam 2024-02-13 17-12-01-427.jpg",
         "date": "MARCH 27, 2023",
         "title": "Sauvage Perfume Impressions at Rawaha",
         "titleLink": "#",
@@ -1375,7 +1375,7 @@
         "readMoreLink": "#"
       },
       {
-        "imageSrc": "./src/images/bandicam 2024-02-13 17-12-11-434.jpg",
+        "image": "bandicam 2024-02-13 17-12-11-434.jpg",
         "date": "MARCH 27, 2023",
         "title": "6 Tips on How to Keep Perfume from Evaporating",
         "titleLink": "#",
@@ -1383,7 +1383,7 @@
         "readMoreLink": "#"
       },
       {
-        "imageSrc": "./src/images/bandicam 2024-02-13 17-12-21-033.jpg",
+        "image": "bandicam 2024-02-13 17-12-21-033.jpg",
         "date": "MARCH 27, 2023",
         "title": "Best Versace Perfume Impressions from Rawaha",
         "titleLink": "#",
@@ -1393,7 +1393,7 @@
     ]
   },
   "bestSeller": {
-    "imageSrc": "./src/images/Best-Sellers.jpg",
+    "image": "Best-Sellers.jpg",
     "title": "OUR BEST SELLERS",
     "items": [
       {
@@ -1450,11 +1450,11 @@
   },
   "reviewCard": {
     "stars": [
-      "./src/images/star.svg",
-      "./src/images/star.svg",
-      "./src/images/star.svg",
-      "./src/images/star.svg",
-      "./src/images/star.svg"
+      "star.svg",
+      "star.svg",
+      "star.svg",
+      "star.svg",
+      "star.svg"
     ],
     "mainReview": "Mixed Experience: Quality Customer Service Amidst Delivery and Product Issues",
     "description": "I purchased multiple items....",
@@ -1465,11 +1465,11 @@
     "leftSide": {
       "title": "20,000+ satisfied customers 🤩",
       "stars": [
-        "./src/images/star.svg",
-        "./src/images/star.svg",
-        "./src/images/star.svg",
-        "./src/images/star.svg",
-        "./src/images/star.svg"
+        "star.svg",
+        "star.svg",
+        "star.svg",
+        "star.svg",
+        "star.svg"
       ],
       "reviewCount": 238
     },
@@ -1491,8 +1491,8 @@
     ]
   },
   "ItemDetails": {
-    "smil_imgSrc": "./src/images/smile.svg",
-    "clock_imgSrc": "./src/images/clock.svg",
-    "truck_imgSrc": "./src/images/truck (1).svg"
+    "smil_imgSrc": "smile.svg",
+    "clock_imgSrc": "clock.svg",
+    "truck_imgSrc": "truck (1).svg"
   }
 }

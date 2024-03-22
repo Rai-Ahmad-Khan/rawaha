@@ -4,6 +4,9 @@
   header {
     overflow:hidden ;
   }
+  /* .object {
+    object-fit :contain;
+  } */
 
   /* side-menu-bar  */
   .c-w {

@@ -32,21 +32,21 @@ export default function Header() {
 
   // For Different Header On Different Pages 
   let customClass = '';
-  let imageSrc = '';
+  let image = '';
 
   if (location.pathname === '/') {
     customClass = '';
-    imageSrc = `${headerData[0].imageSrc}`;
-  } else if (location.pathname === '/products') {
+    image = `/src/assets/images/${headerData[0].image}`;
+  } else if (location.pathname.includes('products')) {
     customClass = 'bg-[#333333]';
-    imageSrc = `${headerData[0].Sticky_imageSrc}`;
+    image = `/src/assets/images/${headerData[0].Sticky_image}`;
   }
-  else if (location.pathname === '/itemDetails') {
+  else if (location.pathname.includes("itemDetails")) {
     customClass = 'bg-[#333333]';
-    imageSrc = `${headerData[0].Sticky_imageSrc}`;
+    image = `/src/assets/images/${headerData[0].Sticky_image}`;
   } else {
     customClass = '';
-    imageSrc = `${headerData[0].imageSrc}`;
+    image = `/src/assets/images/${headerData[0].image}`;
   }
   
 
@@ -61,7 +61,7 @@ export default function Header() {
             {item.submenuIcon && (
               <img
                 className="absolute top-1/2 -right-3 transform -translate-y-1/3"
-                src={`${scrollingUp ? item.color_submenuIcon : item.submenuIcon}`}
+                src={`/src/assets/images/${scrollingUp ? item.color_submenuIcon : item.submenuIcon}`}
                 alt="Down"
               />
             )} 
@@ -108,30 +108,28 @@ const HandalSidebar3 =()=>  {
 }
 
 
-  
-
   return (
     <>
       <header className={`z-30 relative ${customClass} ${scrollingUp ? 'bg-white' : ''} ${scrollingUp ? 'fixed top-0 left-0 w-full z-50' : ''}`}>
         <div className="inner-header relative h-32 px-5 mx-auto flex items-center justify-between text-white">
           <Link to="/" className="logo absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <img className="w-32" src={`${scrollingUp ?headerData[0].Sticky_imageSrc : imageSrc}`} alt="Logo" />
+            <img className="w-32" src={`${scrollingUp ? '/src/assets/images/'+headerData[0].Sticky_image : image}`} alt="Logo" />
           </Link>
           <div className="left flex algin-center gap-x-32">
             <div className="hidden sm:hidden flex items-center lg::header-menu lg:flex lg:items-center">
               {renderMenuItems(headerData[1].menu_items)}
             </div>
             <span className="mobile-menu-btn lg:hidden">
-              <img src="./images/menu (1).svg" alt="burger" />
+              <img src="/src/assets/images/menu (1).svg" alt="burger" />
             </span>
           </div>
 
 
           <div className="flex justify-end over">
                 <ul className="flex text-white gap-5 text-sm items-baseline">
-                    <li><a href="#" onClick={HandalSidebar1} ><img src={`${scrollingUp ? headerData[2].Sticky_imageSrc : headerData[2].imageSrc }`} alt="icon"/></a></li>
-                    <li><a href="#" onClick={HandalSidebar2} ><img src={`${scrollingUp ? headerData[3].Sticky_imageSrc : headerData[3].imageSrc }`}  alt="icon"/></a></li>
-                    <li><a href="#" onClick={HandalSidebar3} className="relative"><img src={`${scrollingUp ? headerData[4].Sticky_imageSrc : headerData[4].imageSrc }`}  alt="icon"/>
+                    <li><a href="#" onClick={HandalSidebar1} ><img src={`/src/assets/images/${scrollingUp ? headerData[2].Sticky_image : headerData[2].image }`} alt="icon"/></a></li>
+                    <li><a href="#" onClick={HandalSidebar2} ><img src={`/src/assets/images/${scrollingUp ? headerData[3].Sticky_image : headerData[3].image }`}  alt="icon"/></a></li>
+                    <li><a href="#" onClick={HandalSidebar3} className="relative"><img src={`/src/assets/images/${scrollingUp ? headerData[4].Sticky_image : headerData[4].image }`}  alt="icon"/>
                         <span className="absolute right-[-12px] top-[-12px] h-5 w-5 bg-white rounded-full text-black flex items-center justify-center">{headerData[4].notification?.count}</span> </a></li>
                         <li className={`amount hidden sm:block ${scrollingUp ? 'text-black': ''}`}><a href="#">{headerData[4].amount}</a></li>
                     </ul>
@@ -153,48 +151,48 @@ const HandalSidebar3 =()=>  {
                         <div className="h-[350px] overflow-y-auto text-gray-400 ">
                             <div className="grid grid-cols-3 gap-5 c-w mt-5 ">
                                 <div className=" relative">
-                                    <img src=  {products_2.items[0].imageSrc} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
-                                    <img src=  {products.items[0].imageSrc} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
+                                    <img src=  {products_2.items[0].image} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
+                                    <img src=  {products.items[0].image} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
                                     <div>
                                         <h2 className="text-sm text-center mt-1">Ruby Oud - Impression of Purple Oud</h2>
                                         <p className="text-center text-sm text-gray-500 mt-1">From Rs.6,000.00 </p>
                                     </div>
                                 </div>
                                 <div className=" relative">
-                                    <img src={products_2.items[0].imageSrc} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
-                                    <img src=  {products.items[0].imageSrc} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
+                                    <img src={products_2.items[0].image} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
+                                    <img src=  {products.items[0].image} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
                                     <div>
                                         <h2 className="text-sm text-center mt-1">Ruby Oud - Impression of Purple Oud</h2>
                                         <p className="text-center text-sm text-gray-500 mt-1">From Rs.6,000.00 </p>
                                     </div>
                                 </div>
                                 <div className=" relative">
-                                    <img src={products_2.items[0].imageSrc} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
-                                    <img src=  {products.items[0].imageSrc} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
+                                    <img src={products_2.items[0].image} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
+                                    <img src=  {products.items[0].image} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
                                     <div>
                                         <h2 className="text-sm text-center mt-1">Ruby Oud - Impression of Purple Oud</h2>
                                         <p className="text-center text-sm text-gray-500 mt-1">From Rs.6,000.00 </p>
                                     </div>
                                 </div>
                                 <div className=" relative">
-                                    <img src={products_2.items[0].imageSrc} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
-                                    <img src=  {products.items[0].imageSrc} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
+                                    <img src={products_2.items[0].image} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
+                                    <img src=  {products.items[0].image} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
                                     <div>
                                         <h2 className="text-sm text-center mt-1">Ruby Oud - Impression of Purple Oud</h2>
                                         <p className="text-center text-sm text-gray-500 mt-1">From Rs.6,000.00 </p>
                                     </div>
                                 </div>
                                 <div className=" relative">
-                                    <img src={products_2.items[0].imageSrc} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
-                                    <img src=  {products.items[0].imageSrc} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
+                                    <img src={products_2.items[0].image} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
+                                    <img src=  {products.items[0].image} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
                                     <div>
                                         <h2 className="text-sm text-center mt-1">Ruby Oud - Impression of Purple Oud</h2>
                                         <p className="text-center text-sm text-gray-500 mt-1">From Rs.6,000.00 </p>
                                     </div>
                                 </div>
                                 <div className=" relative">
-                                    <img src={products_2.items[0].imageSrc} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
-                                    <img src=  {products.items[0].imageSrc} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
+                                    <img src={products_2.items[0].image} alt="image" className="transition-opacity rounded-sm duration-300 opacity-100 hover:opacity-0"/>
+                                    <img src=  {products.items[0].image} alt="image" className="bg-black rounded-sm overflow-hidden transition-opacity duration-1000 opacity-0 hover:opacity-100 absolute inset-0"/>
                                     <div>
                                         <h2 className="text-sm text-center mt-1">Ruby Oud - Impression of Purple Oud</h2>
                                         <p className="text-center text-sm text-gray-500 mt-1">From Rs.6,000.00 </p>

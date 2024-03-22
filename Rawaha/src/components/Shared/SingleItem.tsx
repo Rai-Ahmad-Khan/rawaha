@@ -1,13 +1,23 @@
 import { Link } from 'react-router-dom';
+
+
+
 // import SampleAPI from '../../../SampleAPI.json'
 export default function SingleItem(props:any) {
-    let { id, imageSrc, price, sizes, title } = props;
+    
+
+    let { id, image, price, sizes, title } = props.data;
+
+
+    
+  
+    
 
     return (
         <>
       
         <div key={id} className="item w-[235px] text-sm">
-        <Link to="/itemDetails"><img className="h-[250px] w-full" src={imageSrc} alt="items" /></Link>
+        <Link to={`/itemDetails/${id}`}><img className="h-[250px] w-full" src={`/src/assets/images/${image}`} alt="items"/></Link>
         <div className="item-content ">
             <h1 className="title text-sm">{title}</h1>
             {price && (

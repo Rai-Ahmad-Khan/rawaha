@@ -6,8 +6,8 @@ export default function MainBanner () {
         <>
          <div className="main-banner -my-36">
             <div className="inner-banner max-w-[84rem] mx-auto relative">
-                <img className="w-full  sm:hidden " src={mainBannerData["desktop-bg"]} alt="main-mobile-banner"/>
-                <img className="hidden h-[750px] sm:block" src={mainBannerData["mobile-bg"]} alt="main-desktop-banner"/>
+                <img className="w-full  sm:hidden " src={`/src/assets/images/${mainBannerData["desktop-bg"]}`} alt="main-mobile-banner"/>
+                <img className="hidden h-[750px] sm:block" src={`/src/assets/images/${mainBannerData["mobile-bg"]}`} alt="main-desktop-banner"/>
             <div className="content absolute top-2/4 left-14 sm:top-1/2  sm:left-10 sm:-translate-y-1/2 text-white">
                 <h1 className="text-[44px]  sm:text-[50px] lg:text-6xl leading-tight font-semibold">{mainBannerData.heading}</h1>
                 <p className="mt-10 my-2 text-14 font-normal leading-tight">{mainBannerData.description}</p>
